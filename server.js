@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const app = require('./app');
 
-const DB = 'mongodb://127.0.0.1:27017/belajar-express';
+const DB = 'mongodb+srv://ilmicuy:nasel007@giziplus.ggtdyri.mongodb.net/giziplus?retryWrites=true&w=majority';
 
 mongoose.set('strictQuery', true);
 
